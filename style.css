@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  background: url(Images/Mobile.jpg) no-repeat center/cover ;
+  background: url(images/Mobile.jpg) no-repeat center/cover ;
   width: 100vw;
   min-height: 812px;
   height: 100vh;
@@ -26,7 +26,7 @@ main {
 }
 
 .contDesktop {
-  background: url(Images/Desktopo.png) no-repeat center/cover;
+  background: url(images/Desktopo.png) no-repeat center/cover;
 }
 
 .container {
@@ -119,7 +119,7 @@ ul {
   }
   
   main {
-    background: url(Images/background.svg) no-repeat center/cover;
+    background: url(images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
