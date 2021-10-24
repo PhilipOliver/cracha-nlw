@@ -1,5 +1,5 @@
-
-
+// https://api.github.com/
+// links das redes sociais atribuidas aos icones
 const LinksSocialMedia = {
   github: "PhilipOliver",
   youtube: "channel/UCR4O3XW6JEPR4wJlSsY7lNw",
@@ -17,7 +17,7 @@ function changeSocialMediaLinks() {
   }
 }
 changeSocialMediaLinks()
-
+const title = document.querySelector('#title')
 function getGitHubProfileInfos() {
   // Pegando o JSON
   const url = `https://api.github.com/users/${LinksSocialMedia.github}`
@@ -31,6 +31,9 @@ function getGitHubProfileInfos() {
       userLink.href = data.html_url
       UserImage.src = data.avatar_url
       userLogin.textContent = data.login
+      title.textContent = `${data.name} - DoWhile 2021`
+
     })
 }
 getGitHubProfileInfos()
+
