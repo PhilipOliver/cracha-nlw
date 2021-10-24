@@ -1,8 +1,8 @@
-// https://api.github.com/
-// links das redes sociais atribuidas aos icones
+
+
 const LinksSocialMedia = {
   github: "PhilipOliver",
-  youtube: "UCR4O3XW6JEPR4wJlSsY7lNw",
+  youtube: "channel/UCR4O3XW6JEPR4wJlSsY7lNw",
   facebook: "philipinho.oliver",
   instagram: "philipoliver726",
   twitter: "PhilipOliv3r"
